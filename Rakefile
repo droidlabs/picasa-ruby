@@ -9,5 +9,5 @@ Echoe.new('picasa-ruby', '0.1.0') do |p|
   p.author         = "Iskander Haziev"
   p.email          = "gvalmon@gmail.com"
   p.ignore_pattern = ["tmp/*", "script/*"]
-  p.development_dependencies = ['oauth', 'typhoeus']
+  p.runtime_dependencies = ['oauth', 'typhoeus']
 end

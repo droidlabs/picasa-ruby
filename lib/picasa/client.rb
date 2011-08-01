@@ -7,7 +7,7 @@ module Picasa
     def initialize(api_key, api_secret, oauth_token, oauth_secret = nil)
       @consumer = ::OAuth::Consumer.new(api_key,api_secret, :site => BASE_URL)
       @token = ::OAuth::Token.new(oauth_token, oauth_secret)
-      @oauth_params = {:consumer => consumer, :token => token}
+      @oauth_params = {:consumer => @consumer, :token => @token}
       @client = ::Typhoeus::Hydra.new
     end
     
