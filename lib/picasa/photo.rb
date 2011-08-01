@@ -1,7 +1,5 @@
 module Picasa
   class Photo
-    def initialize
-      
-    end
+    attr_accessor :title, :image, :thumbnails
   end
 end

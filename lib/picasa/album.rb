@@ -1,7 +1,5 @@
 module Picasa
   class Album
-    def initialize
-      
-    end
+    attr_accessor :id, :title, :summary, :size, :image, :thumbnail
   end
 end
