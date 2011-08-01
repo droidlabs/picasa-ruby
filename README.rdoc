@@ -1,0 +1,9 @@
+== Installation
+  $ gem install picasa-ruby
+  
+== Using
+  require 'picasa'
+  
+  client = Picasa::Client.new(api_key, api_secret, oauth_token, oauth_secret)
+  client.albums('example@gmail.com')            # returns user albums
+  client.photos('example@gmail.com', ALBUM_ID)  # returns album photos
