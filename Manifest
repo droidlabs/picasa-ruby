@@ -1,0 +1,10 @@
+CHANGELOG
+LICENSE
+Manifest
+README.rdoc
+Rakefile
+init.rb
+lib/picasa.rb
+lib/picasa/album.rb
+lib/picasa/client.rb
+lib/picasa/photo.rb
